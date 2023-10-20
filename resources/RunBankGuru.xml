@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 <suite parallel="false" name="Word Press">
-<parameter name = "userUrl" value = "http://localhost"/>
-<parameter name = "adminUrl" value = "http://localhost/wp-admin"/> 
+<parameter name = "loginUrl" value = "https://demo.guru99.com/v4/"/>
 
 <listeners>
       <listener class-name="commons.MethodListener"/>
@@ -20,7 +19,7 @@
     </classes>
     -->
     <classes>
-    <class name="com.wordpress.admin.Admin_01_Post"/>
+    <class name="customer.New_Customer"/>
     </classes>
     
 </test>
