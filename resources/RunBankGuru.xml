@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
-<suite parallel="false" name="Word Press">
+<suite parallel="none" name="Word Press">
 <parameter name = "loginUrl" value = "https://demo.guru99.com/v4/"/>
 
 <listeners>

@@ -2,12 +2,11 @@ package pageObjects.bankGuru;
 
 import org.openqa.selenium.WebDriver;
 
-import commons.BasePage;
-
-public class ManagePageObject extends BasePage{
+public class ManagePageObject extends SideBarPageObject{
 	WebDriver driver;
 	
 	public ManagePageObject(WebDriver driver) {
+		super(driver);
 		this.driver = driver;
 	}
 	

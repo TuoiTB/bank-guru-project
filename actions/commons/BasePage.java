@@ -398,6 +398,11 @@ public class BasePage {
 	
 	}
 	
+	public void TabKeyBoard(WebDriver driver) {
+		new Actions(driver).keyDown(Keys.TAB).perform();
+	
+	}
+	
 	public Object executeForBrowser(WebDriver driver, String javaScript) {
 		return ((JavascriptExecutor)driver).executeScript(javaScript);
 	}

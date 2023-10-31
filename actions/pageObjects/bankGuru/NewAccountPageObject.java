@@ -10,4 +10,5 @@ public class NewAccountPageObject extends SideBarPageObject{
 		this.driver = driver;
 	}
 	
+	
 }
